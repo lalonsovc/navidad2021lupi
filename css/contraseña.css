@@ -1,0 +1,57 @@
+:root{
+    --bgColor: #17191b;
+    --colorNeon1: #33CCCC;
+    --colorNeon2:#cc33b8;
+    --colorFont:#fff;
+    --gradient: -webkit-linear-gradient(left, var(--colorNeon1), var(--colorNeon2));
+  
+}
+body{
+    background:url("../img/candado.gif");
+    background-color: black;
+}
+.white{
+    color: #33CCCC;
+}
+
+#pregunta{
+    width: 250px;
+    height: 250px;
+    background-color: #f194e5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    
+}
+#texto1{
+    height: 30px;
+
+}
+#butn1_1{
+    position: relative;
+    top: 20px;
+    left: 75px;
+    height: 60px;
+    width: 100px;
+    padding: 4px 0;
+      border: 3px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1%; 
+    background-color: var(--bgColor);
+    color: whitesmoke;
+}
+
+#butn1_2{
+    position: relative;
+    top: 100px;
+    left: -35px;
+    height: 60px;
+    width: 121px;
+    padding: 4px 0;
+      border: 3px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1%; 
+    background-color: var(--bgColor);
+    color: whitesmoke;
+}

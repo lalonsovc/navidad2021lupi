@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+:root{
+    --bgColor: #17191b;
+    --colorNeon1: #33CCCC;
+    --colorNeon2:#cc33b8;
+    --colorFont:#fff;
+    --gradient: -webkit-linear-gradient(left, var(--colorNeon1), var(--colorNeon2));
+  
+}
+.contenedor{
+    background:url("../img/fondohijos.gif");
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    padding: 15%;
+    color: whitesmoke;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    border: 3px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1%;
+    background-color: var(--bgColor);
+    color: whitesmoke;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+.white{
+    color: #33CCCC;
+  }

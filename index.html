@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/styleprincipal.css" />
+  </head>
+  <body>
+    
+    <div class="card rgb">
+      <div class="card-image card2"></div>
+      <div class="card-text card2">
+        <center><span class="date">Sandra Guadalupe Martínez López</span></center><br><br>
+        <h1>¿Estas lista para iniciar?</h1>
+        <a href="hijos.html"><button id="butn1_1"><h2>Si</h2></button></a>
+        <button onclick="sweetalertNo()" id="butn1_2"><h2>No</h2></button>
+      </div>
+      <div id="gif1"></div>
+    <div id="gif2"></div>
+    </div>
+    
+   
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"),{
+        glare: true,
+        reverse: true,
+        "max-glare": 0.15
+      });
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="js/boton.js"></script>
+  </body>
+</html>
